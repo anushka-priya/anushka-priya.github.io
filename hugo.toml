@@ -1,0 +1,34 @@
+baseURL = "https://anushka-priya.github.io/"
+locale = "en-us"
+title = "Anushka Priya"
+theme = "barks"
+
+[params.head]
+    author = "Anushka Priya"
+    description = "Hi, I'm Anushka & this is my academic portfolio."
+    keywords = ["research", "portfolio", "academia"]
+
+[params.typography]
+    title_font = "Bree Serif"
+    body_font = "Source Sans Pro"
+
+[params.colors]
+    theme_color = "#1e1e2e"
+    background_color = "#1e1e2e"
+    text_color = "#f2c4ee"
+    link_color = "#f50fb8"
+
+[params.social]
+    [params.social.email]
+        name = "E-Mail"
+        class = "fas fa-envelope"
+        url = "mailto:anushkapriya2810@gmail.com"
+        weight = 1
+    [params.social.github]
+        name = "GitHub"
+        class = "fab fa-github"
+        url = "https://github.com/anushka-priya"
+        weight = 2
+
+[markup.goldmark.renderer]
+    unsafe = true
