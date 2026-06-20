@@ -3,7 +3,7 @@ title: "Anushka Priya"
 layout: "landing_page"
 ---
 Hi! I'm Anushka, an undergraduate student at Manipal Institute of Technology majoring in Electronics and Communication Engineering.
-I'm currently figuring out my interests & navigating life at the same time!
+I'm currently figuring out my interests & navigating life- one commit at a time.
 Feel free to explore my work, or reach out via email!
 
 <div style="display: flex; justify-content: center; gap: 40px; margin-top: 60px;">
