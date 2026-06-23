@@ -71,7 +71,7 @@ Consider the sentence:
 
 "The trophy didn't fit in the bag because it was too big"
 
-The most interesting word here is "it" — what does "it" refer to? The trophy or the bag?
+The most interesting word here is "it", what does "it" refer to? The trophy or the bag?
 
 As humans, we resolve this ambiguity in milliseconds, it comes completely intuitively to us. Much like how we can classify an image in seconds just by glancing at it, our brains are wired to extract context and meaning effortlessly. The challenge in deep learning has always been: how do we get a model to do what comes naturally to us? Through attention.
 
