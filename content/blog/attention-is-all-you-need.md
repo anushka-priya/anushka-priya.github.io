@@ -138,7 +138,7 @@ large dk is.
 
 The authors also note that for larger values of dk, additive attention outperforms unscaled dot product attention further justifying the scaling factor.
 
-After scaling, **softmax** is applied to convert the raw scores into a probability distribution — values between 0 and 1 that sum to 1. This gives us the attention weights or how much each word pays attention to every other word in the sentence- providing the context of the sentence.
+After scaling, **softmax** is applied to convert the raw scores into a probability distribution values between 0 and 1 that sum to 1. This gives us the attention weights or how much each word pays attention to every other word in the sentence- providing the context of the sentence.
 
 Finally, the attention weights are multiplied by the Value matrix V. This produces a weighted sum of all value vectors and words with high attention weights contribute more to the output.
 The result is a new, context-aware representation of all the words.
@@ -175,7 +175,7 @@ might specialize in semantic similarity. Another in long range dependencies.
 
 This was directly observed by the authors. The different attention heads clearly learned to perform distinct linguistic tasks: some tracking long distance dependencies across many tokens, others sharply resolving pronoun references, others capturing syntactic structure.
 
-### The Computational Trick
+***The Computational Trick***
 
 Single head attention: 1 head × dk = 512 dimensions
 Multi-head attention:  8 heads × dk = 64 dimensions
