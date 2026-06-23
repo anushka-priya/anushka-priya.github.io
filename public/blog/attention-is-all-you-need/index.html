@@ -24,7 +24,7 @@
 
     
     
-        <title>Anushka Priya&nbsp;•&nbsp;</title>
+        <title>Anushka Priya&nbsp;•&nbsp;Attention Is All You Need- But What is Attention?</title>
     
 
     
@@ -36,7 +36,7 @@
     <meta name="twitter:title" content="Anushka Priya" />
 
     
-    <link rel="canonical" href="http://localhost:1313/blog/">
+    <link rel="canonical" href="http://localhost:1313/blog/attention-is-all-you-need/">
     
     
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -96,19 +96,29 @@
 
 <main>
                         
-
-<h1></h1>
-
-<h2 id="my-blog">my blog</h2>
-
-
-
-    <ul>
     
-        <li><a href="/blog/attention-is-all-you-need/">Attention Is All You Need- But What is Attention?</a></li>
+        <h1>Attention Is All You Need- But What is Attention?</h1>
     
-    </ul>
+    <h2 id="introduction--the-problem-with-rnns">Introduction- the problem with RNNs</h2>
+<p>The 2017 paper <a href="https://arxiv.org/abs/1706.03762">&ldquo;Attention Is All You Need&rdquo;</a> quite literally transformed neural networks. Every chatbot, every LLM you interact with today: GPT, Gemini, Claude finds its roots in this elegant mechanism named attention.</p>
+<p>But why did we require attention to begin with?</p>
+<p>To understand why attention matters, we need to go back to what came before it. The dominant models for sequential tasks like language translation, text generation, and speech recognition were
+Recurrent Neural Networks (RNNs). The idea behind RNNs were simple, process one token at a time, left to right, carrying information forward through a hidden state.</p>
+<p>The problem? RNNs had the memory of a goldfish.</p>
+<p>This made learning long range dependencies extremely difficult. Think about reading a complex piece of literature, you simply cannot make sense of what&rsquo;s happening on page 50 without remembering the intricate details from page 1. If we struggle with this ourselves, how could we expect an RNN to handle it flawlessly?</p>
+<p>By the time an RNN reached word 50 of a sentence, the information from word 1 had largely vanished due to the multiple computations that came in between. This made learning long range dependencies extremely difficult. Gate mechanisms and cell state were used in LSTMs to mitigate this issue.
+However, it wasn&rsquo;t completely solved and since each word had to wait for the previous one to finish processing, you couldn&rsquo;t parallelize the computation, which made the training process extremely  slow.</p>
+<p>Attention mechanisms had actually existed before this paper, introduced by <a href="https://arxiv.org/abs/1409.0473">Bahdanau et al.</a> (2014) in &ldquo;Neural Machine Translation by Jointly Learning to Align and Translate&rdquo; but they remained limited only as a complement to RNNs, not as a replacement.</p>
+<p>This paper changed that entirely. Vaswani et al. proposed a model architecture called <strong>Transformers</strong> based solely on attention, throwing out recurrence altogether.</p>
+<h2 id="the-transformer-architecture">The Transformer Architecture</h2>
+<figure><img src="/images/transformer-architecture.jpeg"
+			alt="Transformer architecture diagram"><figcaption>
+			<p><strong>Figure drawn by me, referencing the original paper to illustrate the transformer architecture and its components.</strong></p>
+		</figcaption>
+</figure>
 
+<p>Let&rsquo;s dive into the architecture!</p>
+<h2 id="embedding--how-words-become-vectors">Embedding- How Words become Vectors</h2>
 
 
                     </main>

@@ -2,12 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-21T03:22:47+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2026-06-23T14:11:50+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-06-23T14:11:50+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/attention-is-all-you-need/</loc>
+    <lastmod>2026-06-23T14:11:50+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
