@@ -23,7 +23,10 @@ Attention mechanisms had actually existed before this paper, introduced by [Bahd
 
 This paper changed that entirely. Vaswani et al. proposed a model architecture called **Transformers** based solely on attention, throwing out recurrence altogether.
 
-{{< figure src="/images/transformer-architecture.jpeg" alt="Transformer architecture diagram" caption="**Figure drawn by me, referencing the original paper to illustrate the transformer architecture and its components.**" >}}
+<figure style="text-align: center;">
+  <img src="/images/transformer-architecture.jpeg" alt="Transformer architecture diagram" style="max-width: 100%;">
+  <figcaption style="text-align: center; font-style: italic; margin-top: 8px;"><strong>Figure drawn by me, referencing the original paper to illustrate the transformer architecture and its components.</strong></figcaption>
+</figure>
 
 ## Embedding
 
