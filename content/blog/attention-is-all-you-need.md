@@ -103,7 +103,10 @@ Now that we've set up the base, let's take a look at computing attention itself!
 
 The attention function is defined as:
 
-{{< figure src="/images/attention-equation.png" alt="Attention formula" caption="From Vaswani et al. (2017)" >}}
+<figure style="text-align: center;">
+  <img src="/images/attention-equation.png" alt="Attention formula" style="max-width: 100%;">
+  <figcaption style="text-align: center; font-style: italic; margin-top: 8px;">From Vaswani et al. (2017)</figcaption>
+</figure>
 
 The first operation is a matrix multiplication between Q and the transpose of K. This computes a dot product between every query and every key measuring how similar, or how relevant, each key is to each query.
 
@@ -114,8 +117,9 @@ The result is a matrix of raw similarity scores:one score for every pair of word
 
 For example:
 
-        "trophy" "didn't" "fit" "bag" "it" "big"
-"it"   [  0.8      0.1    0.3   0.4  0.2   0.7  ]
+| | trophy | didn't | fit | bag | it | big |
+|---|---|---|---|---|---|---|
+| **it** | 0.8 | 0.1 | 0.3 | 0.4 | 0.2 | 0.7 |
 
 High scores for "trophy" and "big" are exactly the words that resolve what "it" refers to.
 
