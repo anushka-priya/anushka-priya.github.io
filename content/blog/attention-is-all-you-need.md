@@ -1,9 +1,9 @@
-+++
-date: '2026-06-23T14:11:50+05:30'
+---
+date: "2026-06-23"
 draft: false
-title:'Attention Is All You Need- But What is Attention?'
+title: "Attention Is All You Need- But What is Attention?"
 thumbnail: "/images/attention-thumbnail.png"
-+++
+---
 
 ## Introduction- the problem with RNNs
 
